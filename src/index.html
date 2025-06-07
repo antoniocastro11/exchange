@@ -13,23 +13,33 @@
       <div class="campo">
         <label for="moeda1">Converter de:</label>
         <select id="moeda1" onchange="converterMoeda()">
-          <option value="BRL">Real (BRL)</option>
-          <option value="USD">Dólar (USD)</option>
-          <option value="EUR">Euro (EUR)</option>
-          <option value="JPY">Iene (JPY)</option>
+          <option value="BRL">Real (R$/BRL)</option>
+          <option value="USD">Dólar (US$/USD)</option>
+          <option value="EUR">Euro (€/EUR)</option>
+          <option value="JPY">Iene (¥/JPY)</option>
         </select>
-        <input type="number" id="valor1" placeholder="Valor" oninput="converterMoeda()" />
+        <input
+          type="number"
+          id="valor1"
+          placeholder="Valor"
+          oninput="converterMoeda()"
+        />
       </div>
 
       <div class="campo">
         <label for="moeda2">Para:</label>
         <select id="moeda2" onchange="converterMoeda()">
-          <option value="USD">Dólar (USD)</option>
-          <option value="BRL">Real (BRL)</option>
-          <option value="EUR">Euro (EUR)</option>
-          <option value="JPY">Iene (JPY)</option>
+          <option value="USD">Dólar (US$/USD)</option>
+          <option value="BRL">Real (R$/BRL)</option>
+          <option value="EUR">Euro (€/EUR)</option>
+          <option value="JPY">Iene (¥/JPY)</option>
         </select>
-        <input type="number" id="valor2" placeholder="Valor convertido" oninput="converterMoedaReversa()" />
+        <input
+          type="number"
+          id="valor2"
+          placeholder="Valor convertido"
+          oninput="converterMoedaReversa()"
+        />
       </div>
     </div>
 
