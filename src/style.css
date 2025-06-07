@@ -12,7 +12,7 @@ body {
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  text-align: center;
+  text-align: left
 }
 
 h2 {
@@ -30,8 +30,11 @@ label {
 }
 
 select, input {
-  padding: 10px;
-  font-size: 16px;
-  width: 220px;
+  padding: 14px;             
+  font-size: 18px;            
+  width: 250px;              
   margin-bottom: 10px;
+  border-radius: 10px;       
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
